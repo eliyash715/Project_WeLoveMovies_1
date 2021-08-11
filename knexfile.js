@@ -1,6 +1,4 @@
 const path = require("path");
-// //added this line of code
-// require("dotenv").config();
 
 if (process.env.USER) require("dotenv").config();
 
